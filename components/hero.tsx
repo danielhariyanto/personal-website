@@ -28,7 +28,7 @@ export default function Hero() {
 
       {/* Animated Geometric Elements */}
       <div className="absolute top-20 right-20 w-32 h-32 border-2 border-stone-300 rotate-45 opacity-20 hidden lg:block animate-spin-slow" />
-      <div className="absolute bottom-20 left-20 w-24 h-24 bg-stone-900 opacity-5 hidden lg:block animate-pulse" />
+      <div className="absolute bottom-20 left-20 w-24 h-24 bg-stone-900 opacity-5 hidden lg:block animate-whirl" />
 
       {/* Additional spinning squares */}
       <div className="absolute top-40 left-1/4 w-16 h-16 border border-stone-400 opacity-10 hidden md:block animate-spin-reverse" />
