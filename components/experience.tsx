@@ -12,13 +12,13 @@ const experiences = [
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zip-blob/v0%20personal%20website/images/microsoft-AU8eHBVXQZWfde78TO1ftJ4wdlCsrP.jpeg",
     website: "https://microsoft.com/",
     description:
-      "Microsoft's flagship content distribution platform that ships >132EB of Microsoft products annually to every device on the planet.",
+      "Microsoft's flagship content distribution platform that ships >132EB of Microsoft content annually to 1.6B devices.",
     customer:
       "1) device users & IT admins + 2) Microsoft's content publishers owning products like Windows, Microsoft Store, M365, Xbox, Azure, Edge.",
     highlights: [
-      "Cut publisher onboarding lead-time by 97% (2 months → 2 days). Redesigned onboarding as a self-serve wizard with built-in integration, abstracting complex distribution setup into intuitive UI flows that save ~500 engineer-hours per onboarding.",
+      "Expanded platform capabilities beyond OS to also support Microsoft 1st-party products. Onboarded Microsoft's crown-jewel products—Office, Teams, Defender, SQL Server, Visual Studio, Exchange, and 14 others—cementing the platform as the backbone of Microsoft's software delivery.",
+      "Cut publisher onboarding lead-time by 94% (32 weeks → 2 weeks). Redesigned onboarding as a self-serve web wizard with built-in integration, abstracting complex distribution setup into intuitive UI flows that save ~500 engineer-hours per onboarding.",
       "Enabled 7x publisher capacity in year 1 alone (3 → 20 publishers). Drove the org-wide shift from reactive support to a product-led platform by launching an AI-powered publisher-facing portal that centralized end-to-end publisher workflows—unlocking platform scale to virtually unlimited publishers.",
-      "Onboarded Microsoft's crown-jewel products—Teams, Defender, SQL Server, Visual Studio, and Exchange. Expanded platform capabilities to support high-throughput, mission-critical workloads—unlocking billions in ARR and cementing the platform as the backbone of Microsoft's software delivery.",
       "Protected 1.5B devices by isolating security breaches to the affected publisher, averting >$150B in potential losses. Designed and rolled out infra-wide security guardrails adopted by 20 partner teams, ensuring a compromised publisher cannot impact others—a 15,000x threat exposure reduction.",
       "Drove 10× PM efficiency through AI-powered workflows. Built and deployed agentic tools for specs, prototypes, and cross-team communication—reducing cycle time and manual effort—and showcased in two main-stage sessions at a Microsoft PM summit with >600 PM leaders.",
     ],
