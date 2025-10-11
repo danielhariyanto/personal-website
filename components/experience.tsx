@@ -16,10 +16,11 @@ const experiences = [
     customer:
       "1) device users & IT admins + 2) Microsoft's content publishers owning products like Windows, Microsoft Store, M365, Xbox, Azure, Edge.",
     highlights: [
-      "Expanded platform capabilities beyond OS to also support Microsoft 1st-party products. Onboarded Microsoft's crown-jewel products—Office, Teams, Defender, SQL Server, Visual Studio, Exchange, and 14 others—cementing the platform as the backbone of Microsoft's software delivery.",
+      "Expanded platform coverage beyond Windows OS, Store, and Drivers to now include all Microsoft 1st-party products—growing total addressable market 15× and establishing it as a company-wide delivery foundation.",
+      "Cemented the platform as the backbone of Microsoft's software delivery by securing buy-in from its crown-jewel product groups—Office, Teams, OneDrive, Defender, SQL Server, Visual Studio, Exchange, and 14 others.",
+      "Enabled 7x publisher capacity in year 1 alone (3 → 21 publishers). Drove the org-wide shift from reactive support to a product-led platform by launching an AI-powered publisher-facing web platform that centralized end-to-end publisher workflows—unlocking platform scale to virtually unlimited publishers.",
       "Cut publisher onboarding lead-time by 94% (32 weeks → 2 weeks). Redesigned onboarding as a self-serve web wizard with built-in integration, abstracting complex distribution setup into intuitive UI flows that save ~500 engineer-hours per onboarding. Leveraged AI to generate hyper-realistic UI prototypes, accelerating design iteration and stakeholder alignment.",
-      "Enabled 7x publisher capacity in year 1 alone (3 → 20 publishers). Drove the org-wide shift from reactive support to a product-led platform by launching an AI-powered publisher-facing portal that centralized end-to-end publisher workflows—unlocking platform scale to virtually unlimited publishers.",
-      "Protected 1.5B devices by isolating security breaches to the affected publisher, averting >$150B in potential losses. Designed and rolled out infra-wide security guardrails adopted by 20 partner teams, ensuring a compromised publisher cannot impact others—a 15,000x threat exposure reduction.",
+      "Protected 1.5B devices by isolating security breaches to the affected publisher, averting >$150B in potential losses. Designed and rolled out infra-wide security guardrails adopted by 20 partner teams, ensuring a compromised publisher cannot impact others—a 15,000× threat exposure reduction.",
       "Drove 10× PM efficiency through AI-powered workflows. Built and deployed agentic tools for specs, prototypes, and cross-team communication—reducing cycle time and manual effort—and showcased in two main-stage sessions at a Microsoft PM summit with >600 PM leaders.",
     ],
   },
@@ -36,8 +37,9 @@ const experiences = [
     highlights: [
       "Enabled 90× faster detection of riot formations (30 min → 20 sec). Delivered real-time aerial analytics—high-altitude reconnaissance, crowd density mapping, vehicle tracking, facial recognition, live annotation tooling, and automated alerts—to support rapid tactical coordination.",
       "Achieved full pilot adoption in <2 months. Embedded in 3 field missions and led >10 iterations with commanders to translate workflows into features.",
-      "Generated inbound interest from 3 additional government agencies. Validated strong product-market fit and operational enthusiasm beyond pilot.",
-      "Sunsetted the venture as a team due to growing ethical concerns around government contracting.",
+      "Increased riot containment success rate from 25% to 90% by enabling commanders to preemptively re-position forces based on real-time riot movement.",
+      "Reduced officer casualty incidents by 50% by replacing manual reconnaissance in high-risk zones with drone-based intelligence.",
+      "Recorded 100% retention among field users, with officers citing tool as “critical” for situational awareness and tactical response in debriefing interviews.",
     ],
   },
   {
@@ -76,13 +78,13 @@ const experiences = [
     company: "Bessemer Venture Partners",
     role: "Bessemer Fellow & Software Engineer",
     location: "San Francisco, CA",
-    period: "FEB 2022 - AUG 2022",
+    period: "FEB 2022 - MAY 2022",
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zip-blob/v0%20personal%20website/images/bessemer-iyNeLrJC0jdmdvU5kCHNeROKzuAJf3.jpeg",
     website: "https://www.bvp.com/",
     highlights: [
       "1 of 20 Fellows selected out of >2,000 applicants across the US to be part of the Bessemer VC network",
       "Interned as a software engineer at Bevi, a Bessemer portfolio company, building Alexa smart speaker functionality for Bevi's IoT flagship product",
-      "Built a proof-of-concept interface based in Java Dropwizard that enables a custom Alexa skill to connect to Bevi's IoT product and recreate all functionality via voice commands; created detailed Confluence documentation on the interface's endpoints and on Alexa skill creation and distribution",
+      "Built an interface based in Java Dropwizard that enables a custom Alexa skill to connect to Bevi's IoT product and recreate all functionality via voice commands",
     ],
     learnMore: "https://www.bvp.com/news/bessemers-2022-fellowship-class",
   },
