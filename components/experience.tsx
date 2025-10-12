@@ -16,12 +16,12 @@ const experiences = [
     customer:
       "1) device users & IT admins + 2) Microsoft's content publishers owning products like Windows, Microsoft Store, M365, Xbox, Azure, Edge.",
     highlights: [
-      "Expanded platform coverage beyond Windows OS, Store, and Drivers to now include all Microsoft 1st-party products—growing total addressable market 15× and establishing it as a company-wide delivery foundation.",
-      "Cemented the platform as the backbone of Microsoft's software delivery by securing buy-in from its crown-jewel product groups—Office, Teams, OneDrive, Defender, SQL Server, Visual Studio, Exchange, and 14 others.",
-      "Enabled 7x publisher capacity in year 1 alone (3 → 21 publishers). Drove the org-wide shift from reactive support to a product-led platform by launching an AI-powered publisher-facing web platform that centralized end-to-end publisher workflows—unlocking platform scale to virtually unlimited publishers.",
-      "Cut publisher onboarding lead-time by 94% (32 weeks → 2 weeks). Redesigned onboarding as a self-serve web wizard with built-in integration, abstracting complex distribution setup into intuitive UI flows that save ~500 engineer-hours per onboarding. Leveraged AI to generate hyper-realistic UI prototypes, accelerating design iteration and stakeholder alignment.",
-      "Protected 1.5B devices by isolating security breaches to the affected publisher, averting >$150B in potential losses. Designed and rolled out infra-wide security guardrails adopted by 20 partner teams, ensuring a compromised publisher cannot impact others—a 15,000× threat exposure reduction.",
-      "Drove 10× PM efficiency through AI-powered workflows. Built and deployed agentic tools for specs, prototypes, and cross-team communication—reducing cycle time and manual effort—and showcased in two main-stage sessions at a Microsoft PM summit with >600 PM leaders.",
+      "**Expanded platform coverage beyond Windows OS, Store, and Drivers to now include all Microsoft 1st-party products**—growing total addressable market 15× and establishing it as a company-wide delivery foundation.",
+      "**Cemented the platform as the backbone of Microsoft's software delivery** by securing buy-in from its crown-jewel product groups—Office, Teams, OneDrive, Defender, SQL Server, Visual Studio, Exchange, and 14 others.",
+      "**Enabled 7x publisher capacity in year 1 alone (3 → 21 publishers).** Drove the org-wide shift from reactive support to a product-led platform by launching an AI-powered publisher-facing web platform that centralized end-to-end publisher workflows—unlocking platform scale to virtually unlimited publishers.",
+      "**Cut publisher onboarding lead-time by 94% (32 weeks → 2 weeks).** Redesigned onboarding as a self-serve web wizard with built-in integration, abstracting complex distribution setup into intuitive UI flows that save ~500 engineer-hours per onboarding. Leveraged AI to generate hyper-realistic UI prototypes, accelerating design iteration and stakeholder alignment.",
+      "**Protected 1.5B devices by isolating security breaches to the affected publisher,** averting >$150B in potential losses. Designed and rolled out infra-wide security guardrails adopted by 20 partner teams, ensuring a compromised publisher cannot impact others—a 15,000× threat exposure reduction.",
+      "**Drove 10× PM efficiency through AI-powered workflows.** Built and deployed agentic tools for specs, prototypes, and cross-team communication—reducing cycle time and manual effort—and showcased in two main-stage sessions at a Microsoft PM summit with >600 PM leaders.",
     ],
   },
   {
@@ -35,11 +35,11 @@ const experiences = [
       "AI-powered drone surveillance platform that enables faster and more informed command-and-control decision-making during riots.",
     customer: "Indonesia's SWAT and police forces.",
     highlights: [
-      "Enabled 90× faster detection of riot formations (30 min → 20 sec). Delivered real-time aerial analytics—high-altitude reconnaissance, crowd density mapping, vehicle tracking, facial recognition, live annotation tooling, and automated alerts—to support rapid tactical coordination.",
-      "Achieved full pilot adoption in <2 months. Embedded in 3 field missions and led >10 iterations with commanders to translate workflows into features.",
-      "Increased riot containment success rate from 25% to 90% by enabling commanders to preemptively re-position forces based on real-time riot movement.",
-      "Reduced officer casualty incidents by 50% by replacing manual reconnaissance in high-risk zones with drone-based intelligence.",
-      "Recorded 100% retention among field users, with officers citing tool as “critical” for situational awareness and tactical response in debriefing interviews.",
+      "**Enabled 90× faster detection of riot formations (30 min → 20 sec).** Delivered real-time aerial analytics—high-altitude reconnaissance, crowd density mapping, vehicle tracking, facial recognition, live annotation tooling, and automated alerts—to support rapid tactical coordination.",
+      "**Achieved full pilot adoption in <2 months.** Embedded in 3 field missions and led >10 iterations with commanders to translate workflows into features.",
+      "**Increased riot containment success rate from 25% to 90%** by enabling commanders to preemptively re-position forces based on real-time riot movement.",
+      "**Reduced officer casualty incidents by 50%** by replacing manual reconnaissance in high-risk zones with drone-based intelligence.",
+      "**Recorded 100% retention among field users,** with officers citing tool as “critical” for situational awareness and tactical response in debriefing interviews.",
     ],
   },
   {
@@ -53,9 +53,9 @@ const experiences = [
     customer:
       "pharmaceutical and experimental drug trial companies (pivoted from insurance and primary care providers).",
     highlights: [
-      "Achieved 87% detection accuracy for early-onset Alzheimer's using voice alone. Built cloud pipeline and trained ML models on real patient speech from DementiaBank to screen for cognitive decline.",
-      "Secured 6-figure non-dilutive funding and 8 top awards. Awards include 1st at Babson $100K Pitch Competition, 1st at Brandeis SPARKTank, 2nd at AI@MIT, Harvard Capital Partners Fund Winner, Harvard iLab Spark Grant, Dove InstaGrants Winner (1 of 3), Rothberg Catalyzer, and Harvard CBE Venture.",
-      "Undergoing clinical validation in the Swedish BioFINDER study, one of the advanced programs on early Alzheimer's detection. Positioned product for FDA De Novo pathway with top-tier neuroscience partnerships like Carney Institute for Brain Sciences and Butler Hospital.",
+      "**Achieved 87% detection accuracy for early-onset Alzheimer's using voice alone.** Built cloud pipeline and trained ML models on real patient speech from DementiaBank to screen for cognitive decline.",
+      "**Secured 6-figure non-dilutive funding and 8 top awards.** Awards include 1st at Babson $100K Pitch Competition, 1st at Brandeis SPARKTank, 2nd at AI@MIT, Harvard Capital Partners Fund Winner, Harvard iLab Spark Grant, Dove InstaGrants Winner (1 of 3), Rothberg Catalyzer, and Harvard CBE Venture.",
+      "**Undergoing clinical validation in the Swedish BioFINDER study,** one of the advanced programs on early Alzheimer's detection. Positioned product for FDA De Novo pathway with top-tier neuroscience partnerships like Carney Institute for Brain Sciences and Butler Hospital.",
       "Stepped away due to elongated clinical timelines and slow go-to-market momentum, but still rooting for the team and firmly believing in the tech's impact.",
     ],
   },
@@ -355,30 +355,45 @@ export default function Experience() {
                     /* Regular Highlights */
                     <div className="space-y-3">
                       {exp.highlights?.map((highlight, highlightIndex) => {
-                        // Bold first sentence for specific companies
-                        const shouldBoldFirstSentence =
-                          (exp.company === "Microsoft" && exp.role === "Product Manager") ||
-                          exp.company === "Augment Industries" ||
-                          exp.company === "Mobile Memory"
-
-                        if (shouldBoldFirstSentence) {
-                          const firstSentenceEnd = highlight.indexOf(". ")
-                          if (firstSentenceEnd !== -1) {
-                            const firstSentence = highlight.substring(0, firstSentenceEnd + 1)
-                            const restOfText = highlight.substring(firstSentenceEnd + 2)
-
-                            return (
-                              <div
-                                key={highlightIndex}
-                                className="flex items-start gap-3 text-stone-700 hover:text-stone-900 transition-colors"
-                              >
-                                <div className="w-1.5 h-1.5 bg-stone-900 rounded-full mt-2 flex-shrink-0" />
-                                <p className="leading-relaxed font-light">
-                                  <span className="font-semibold">{firstSentence}</span> {restOfText}
-                                </p>
-                              </div>
-                            )
+                        // Function to parse and render text with custom bold markers
+                        const renderHighlightWithBold = (text: string) => {
+                          // Check if text contains bold markers **text**
+                          if (text.includes('**')) {
+                            const parts = text.split(/(\*\*[^*]+\*\*)/g)
+                            return parts.map((part, partIndex) => {
+                              if (part.startsWith('**') && part.endsWith('**')) {
+                                // Remove the ** markers and make bold
+                                const boldText = part.slice(2, -2)
+                                return (
+                                  <span key={partIndex} className="font-semibold">
+                                    {boldText}
+                                  </span>
+                                )
+                              }
+                              return part
+                            })
                           }
+                          
+                          // Fallback to old logic for backward compatibility
+                          const shouldBoldFirstSentence =
+                            (exp.company === "Microsoft" && exp.role === "Product Manager") ||
+                            exp.company === "Augment Industries" ||
+                            exp.company === "Mobile Memory"
+
+                          if (shouldBoldFirstSentence) {
+                            const firstSentenceEnd = text.indexOf(". ")
+                            if (firstSentenceEnd !== -1) {
+                              const firstSentence = text.substring(0, firstSentenceEnd + 1)
+                              const restOfText = text.substring(firstSentenceEnd + 2)
+                              return (
+                                <>
+                                  <span className="font-semibold">{firstSentence}</span> {restOfText}
+                                </>
+                              )
+                            }
+                          }
+
+                          return text
                         }
 
                         return (
@@ -387,7 +402,9 @@ export default function Experience() {
                             className="flex items-start gap-3 text-stone-700 hover:text-stone-900 transition-colors"
                           >
                             <div className="w-1.5 h-1.5 bg-stone-900 rounded-full mt-2 flex-shrink-0" />
-                            <p className="leading-relaxed font-light">{highlight}</p>
+                            <p className="leading-relaxed font-light">
+                              {renderHighlightWithBold(highlight)}
+                            </p>
                           </div>
                         )
                       })}
