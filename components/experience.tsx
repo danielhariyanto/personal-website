@@ -6,7 +6,7 @@ import Image from "next/image"
 const experiences = [
   {
     company: "Microsoft",
-    role: "Product Manager",
+    role: "Product Manager II",
     location: "Redmond, WA",
     period: "OCT 2023 - PRESENT",
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zip-blob/v0%20personal%20website/images/microsoft-AU8eHBVXQZWfde78TO1ftJ4wdlCsrP.jpeg",
@@ -16,8 +16,9 @@ const experiences = [
     customer:
       "1) device users & IT admins + 2) Microsoft's content publishers owning products like Windows, Microsoft Store, M365, Xbox, Azure, Edge.",
     highlights: [
-      "**Expanded platform coverage beyond Windows OS, Store, and Drivers to now include all Microsoft 1st-party products**—growing total addressable market 15× and establishing it as a company-wide delivery foundation.",
-      "**Cemented the platform as the backbone of Microsoft's software delivery** by securing buy-in from its crown-jewel product groups—Office, Teams, OneDrive, Defender, SQL Server, Visual Studio, Exchange, and 14 others.",
+      "**Expanded platform coverage beyond Windows OS to now include all Microsoft 1st-party products**—growing platform's total addressable market 20× and establishing it as a company-wide delivery foundation.",
+      "**Cemented the platform as the backbone of Microsoft's software delivery** by securing buy-in from its crown-jewel product groups—Teams, OneDrive, Office, Defender, SQL Server, Visual Studio, Exchange, and 14 others.",
+      "**Delivered $21M annual savings for Teams and OneDrive** by outperforming legacy distribution costs through peer-to-peer delivery and caching.",
       "**Enabled 7x publisher capacity in year 1 alone (3 → 21 publishers).** Drove the org-wide shift from reactive support to a product-led platform by launching an AI-powered publisher-facing web platform that centralized end-to-end publisher workflows—unlocking platform scale to virtually unlimited publishers.",
       "**Cut publisher onboarding lead-time by 94% (32 weeks → 2 weeks).** Redesigned onboarding as a self-serve web wizard with built-in integration, abstracting complex distribution setup into intuitive UI flows that save ~500 engineer-hours per onboarding. Leveraged AI to generate hyper-realistic UI prototypes, accelerating design iteration and stakeholder alignment.",
       "**Protected 1.5B devices by isolating security breaches to the affected publisher,** averting >$150B in potential losses. Designed and rolled out infra-wide security guardrails adopted by 20 partner teams, ensuring a compromised publisher cannot impact others—a 15,000× threat exposure reduction.",
