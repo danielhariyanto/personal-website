@@ -1,6 +1,6 @@
 "use client"
 
-import { Download, ArrowDown } from "lucide-react"
+import { ArrowDown } from "lucide-react"
 
 export default function Hero() {
   const scrollToNext = () => {
@@ -56,17 +56,6 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="pt-4">
-            <a
-              href="REMOVED"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-stone-900 text-stone-50 px-8 py-4 font-mono text-sm uppercase tracking-wider hover:bg-stone-800 hover:scale-105 transition-all duration-200 border-2 border-stone-900"
-            >
-              <Download size={18} />
-              Resume
-            </a>
-          </div>
         </div>
       </div>
 
