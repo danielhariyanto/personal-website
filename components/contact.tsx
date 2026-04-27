@@ -59,7 +59,7 @@ export default function Contact() {
 
         {/* Footer */}
         <div className="text-center mt-16 pt-8 border-t border-stone-800">
-          <p className="text-stone-500 font-mono text-sm">© 2025 Daniel Hariyanto. All rights reserved.</p>
+          <p className="text-stone-500 font-mono text-sm">© 2026 Daniel Hariyanto. All rights reserved.</p>
         </div>
       </div>
     </section>
