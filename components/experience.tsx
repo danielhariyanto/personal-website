@@ -8,21 +8,36 @@ const experiences = [
     company: "Microsoft",
     role: "Product Manager II",
     location: "Redmond, WA",
-    period: "OCT 2023 - PRESENT",
+    period: "APR 2026 - PRESENT",
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zip-blob/v0%20personal%20website/images/microsoft-AU8eHBVXQZWfde78TO1ftJ4wdlCsrP.jpeg",
     website: "https://microsoft.com/",
     description:
-      "Microsoft's flagship content distribution platform that ships >132EB of Microsoft content annually to 1.6B devices.",
-    customer:
-      "1) device users & IT admins + 2) Microsoft's content publishers owning products like Windows, Microsoft Store, M365, Xbox, Azure, Edge.",
+      "internal AI operations backbone that connects context across systems, autonomously executes work, and continuously self-improves.",
+    product: true,
     highlights: [
-      "**Expanded platform coverage beyond Windows OS to now include all Microsoft 1st-party products**—growing platform's total addressable market 20× and establishing it as a company-wide delivery foundation.",
-      "**Cemented the platform as the backbone of Microsoft's software delivery** by securing buy-in from its crown-jewel product groups—Teams, OneDrive, Office, Defender, SQL Server, Visual Studio, Exchange, and 14 others.",
+      "**Chartered and launched a new AI operations platform**, taking it from concept to adoption across 4 internal and 40 customer engineering teams.",
+      "**Designed MCP integrations and a persistent hosted agent runtime** to move AI beyond answering questions into executing work across internal systems.",
+      "**Replaced 70% of previously manual operational workflows with automated agent-driven execution.** Shifted engineers from performing repetitive investigations, onboarding, and service operations to supervising outcomes, approving consequential actions, and handling exceptions.",
+      "**Expanded operational throughput 4× across a 60-person organization—enabling ~23,000 additional workflows annually.** Scaled execution beyond specialist availability, allowing teams to address previously deferred work without proportional headcount growth.",
+      "**Cut investigation-to-resolution time by 98% (8 hours → 10 minutes).** Connected fragmented domain knowledge, telemetry, and diagnostic tools into end-to-end investigation workflows, accelerating root-cause analysis and resolution.",
+      "**Increased verified workflow success from 80% to 95% through continuous self-improvement.** Designed a self-learning memory architecture that compounds organizational intelligence through agent learning loops—capturing expert problem-solving and applying it to improve future execution.",
+    ],
+  },
+  {
+    company: "Microsoft",
+    role: "Product Manager",
+    location: "Redmond, WA",
+    period: "OCT 2023 - MAR 2026",
+    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zip-blob/v0%20personal%20website/images/microsoft-AU8eHBVXQZWfde78TO1ftJ4wdlCsrP.jpeg",
+    website: "https://microsoft.com/",
+    description:
+      "Software distribution platform enabling Microsoft product teams—including Windows, Microsoft Store, Microsoft 365, and many others—to deliver software and updates to 1.6 billion Windows devices, distributing >132 exabytes annually.",
+    product: true,
+    highlights: [
+      "**Transformed a Windows-only distribution platform into a company-wide software delivery foundation.** Expanded coverage to all Microsoft first-party products, including Teams, OneDrive, Office, and Defender, cementing the platform as the backbone of Microsoft's software delivery.",
       "**Delivered $21M annual savings for Teams and OneDrive** by outperforming legacy distribution costs through peer-to-peer delivery and caching.",
-      "**Enabled 7x publisher capacity in year 1 alone (3 → 21 publishers).** Drove the org-wide shift from reactive support to a product-led platform by launching an AI-powered publisher-facing web platform that centralized end-to-end publisher workflows—unlocking platform scale to virtually unlimited publishers.",
-      "**Cut publisher onboarding lead-time by 94% (32 weeks → 2 weeks).** Redesigned onboarding as a self-serve web wizard with built-in integration, abstracting complex distribution setup into intuitive UI flows that save ~500 engineer-hours per onboarding. Leveraged AI to generate hyper-realistic UI prototypes, accelerating design iteration and stakeholder alignment.",
-      "**Protected 1.5B devices by isolating security breaches to the affected publisher,** averting >$150B in potential losses. Designed and rolled out infra-wide security guardrails adopted by 20 partner teams, ensuring a compromised publisher cannot impact others—a 15,000× threat exposure reduction.",
-      "**Drove 10× PM efficiency through AI-powered workflows.** Built and deployed agentic tools for specs, prototypes, and cross-team communication—reducing cycle time and manual effort—and showcased in two main-stage sessions at a Microsoft PM summit with >600 PM leaders.",
+      "**Increased publisher capacity 7× in year one (3 → 21 publishers).** Launched an AI-powered portal centralizing end-to-end publisher workflows, shifting operations from reactive support to scalable self-service.",
+      "**Cut onboarding time by 94% (32 weeks → 2 weeks), saving ~500 hours per publisher.** Replaced complex distribution setup with a self-service wizard.",
     ],
   },
   {
@@ -33,8 +48,8 @@ const experiences = [
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zip-blob/v0%20personal%20website/images/augment-px21Qs4dAi2infK9X7CZA7W9j1q8qc.jpeg",
     website: "http://augmentindustries.com/",
     description:
-      "AI-powered drone surveillance platform that enables faster and more informed command-and-control decision-making during riots.",
-    customer: "Indonesia's SWAT and police forces.",
+      "AI-powered drone surveillance platform that enables faster and more informed command-and-control decision-making for Indonesia’s police and SWAT forces during violent riots.",
+    product: true,
     highlights: [
       "**Enabled 90× faster detection of riot formations (30 min → 20 sec).** Delivered real-time aerial analytics—high-altitude reconnaissance, crowd density mapping, vehicle tracking, facial recognition, live annotation tooling, and automated alerts—to support rapid tactical coordination.",
       "**Achieved full pilot adoption in <2 months.** Embedded in 3 field missions and led >10 iterations with commanders to translate workflows into features.",
@@ -50,9 +65,9 @@ const experiences = [
     period: "SEP 2020 - AUG 2024",
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zip-blob/v0%20personal%20website/images/mobilememory-24eJuLmDQN773ScCGqMu5XsmkUFiIF.jpeg",
     website: "https://mobilememory.app/",
-    description: "AI model that screens for early-onset Alzheimer's by analyzing vocal biomarkers in natural speech.",
-    customer:
-      "pharmaceutical and experimental drug trial companies (pivoted from insurance and primary care providers).",
+    description:
+      "AI model that screens for early-onset Alzheimer's by analyzing vocal biomarkers in natural speech, serving pharmaceutical and experimental drug trial companies after pivoting from insurance and primary care providers.",
+    product: true,
     highlights: [
       "**Achieved 87% detection accuracy for early-onset Alzheimer's using voice alone.** Built cloud pipeline and trained ML models on real patient speech from DementiaBank to screen for cognitive decline.",
       "**Secured 6-figure non-dilutive funding and 8 top awards.** Awards include 1st at Babson $100K Pitch Competition, 1st at Brandeis SPARKTank, 2nd at AI@MIT, Harvard Capital Partners Fund Winner, Harvard iLab Spark Grant, Dove InstaGrants Winner (1 of 3), Rothberg Catalyzer, and Harvard CBE Venture.",
@@ -97,10 +112,7 @@ const experiences = [
     logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zip-blob/v0%20personal%20website/images/microsoft-AU8eHBVXQZWfde78TO1ftJ4wdlCsrP.jpeg",
     website: "https://microsoft.com/",
     highlights: [
-      "Investigated new business areas to expand Microsoft's content delivery optimization technology, which is responsible for reliably and performantly distributing 10+ exabytes of Microsoft content per month to 1.5B+ Windows devices globally",
-      "Designed a go-to-market plan that evaluates business opportunities and risks with 3rd party content support for Microsoft's peer-to-peer and caching services, addressing highly expressed customer pain points (88% customer approval via surveys) and providing value-add to Microsoft's Intune and Azure CDN services simultaneously",
-      "Conducted usage and revenue modeling based on large internal datasets across 3 teams to evaluate growth opportunities in the next 5 years",
-      "Created feature spec and UX wireframes using Figma, coordinated feature implementation with the development team, and presented project to CVP",
+      "**Identified a $500M expansion opportunity for externalizing the platform's first-party delivery technology.** Validated demand with 88% customer approval (independent software vendors and enterprises) and VP review through strategy development, stakeholder interviews, and MVP prototyping.",
     ],
   },
   {
@@ -299,16 +311,10 @@ export default function Experience() {
                       {exp.role && <h4 className="text-lg font-semibold text-stone-700 mb-2">{exp.role}</h4>}
                       {exp.description && (
                         <div className="mb-3 p-3 bg-stone-100 border-l-4 border-stone-300 rounded-r">
-                          {exp.customer ? (
-                            <div className="space-y-1 text-sm">
-                              <div>
-                                <span className="font-semibold text-stone-700">Product:</span>{" "}
-                                <span className="text-stone-600 font-light">{exp.description}</span>
-                              </div>
-                              <div>
-                                <span className="font-semibold text-stone-700">Customer:</span>{" "}
-                                <span className="text-stone-600 font-light">{exp.customer}</span>
-                              </div>
+                          {exp.product ? (
+                            <div className="text-sm">
+                              <span className="font-semibold text-stone-700">Product:</span>{" "}
+                              <span className="text-stone-600 font-light">{exp.description}</span>
                             </div>
                           ) : (
                             <div className="text-sm">

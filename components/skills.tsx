@@ -5,7 +5,6 @@ import {
   Code,
   Database,
   Cloud,
-  Users,
   Rocket,
   Terminal,
   PenToolIcon as Tools,
@@ -16,27 +15,27 @@ import {
 const skillCategories = [
   {
     icon: Bot,
-    title: "LLM Engineering",
+    title: "AI & Agentic Systems",
     skills: [
-      "Prompt Engineering",
-      "Multimodal Interaction",
-      "Retrieval-Augmented Generation",
-      "Prompt Chaining",
-      "Function Calling",
-      "Autonomous Agents",
+      "Agent Loop Engineering",
+      "Context Engineering",
+      "RAG",
+      "Memory Architecture",
+      "MCP Design",
+      "Agent Runtime Design",
+      "Evals",
     ],
   },
   {
     icon: Tools,
-    title: "LLM Tools",
+    title: "AI Development Tools",
     skills: [
-      "OpenAI APIs",
-      "Azure AI Services",
+      "Claude Code",
       "GitHub Copilot",
-      "Microsoft Copilot",
+      "Microsoft Agent Framework",
+      "Azure AI Foundry",
+      "OpenAI & Anthropic APIs",
       "Vercel v0",
-      "LangChain",
-      "Model Context Protocols",
     ],
   },
   {
@@ -83,36 +82,15 @@ const skillCategories = [
     ],
   },
   {
-    icon: Terminal,
-    title: "Developer Tools",
-    skills: [
-      "Git/GitHub",
-      "Unix/Linux",
-      "shell scripting",
-      "web scraping (BeautifulSoup)",
-      "unit, functional, integration testing",
-    ],
-  },
-  {
-    icon: Users,
-    title: "Collaboration Tools",
-    skills: [
-      "Version Control: GitHub, Bitbucket, GitLab",
-      "Project Management: Jira, Asana, Trello",
-      "Analytics: Power BI, Google Analytics, Tableau",
-      "Documentation: Confluence, OneNote, SharePoint",
-      "Methodology: Agile, Scrum, Waterfall",
-    ],
-  },
-  {
     icon: Rocket,
     title: "Product",
     skills: [
-      "Figma Prototyping",
+      "Zero-to-One Product Development",
+      "AI Product Strategy",
       "OKR Roadmapping",
-      "E2E Product Design",
       "Cross-Functional Leadership",
-      "Startup Execution",
+      "Figma & AI Prototyping",
+      "Agile/Scrum",
     ],
   },
   {
@@ -142,7 +120,7 @@ export default function Skills() {
             <div
               key={category.title}
               className={`bg-stone-100 border-2 border-stone-200 p-6 hover:border-stone-300 hover:-translate-y-1 transition-all duration-200 group animate-slide-up ${
-                category.isWide ? "md:col-span-2 lg:col-span-2" : ""
+                category.isWide ? "col-span-full" : ""
               }`}
               style={{ animationDelay: `${index * 100}ms` }}
             >

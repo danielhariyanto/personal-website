@@ -91,7 +91,7 @@ export default function About() {
                   <p className="font-medium">Phi Beta Kappa Honors Society</p>
                 </div>
                 <div className="pb-2 border-b border-stone-100">
-                  <p className="font-medium">Bessemer Fellow (1 of 20 selected)</p>
+                  <p className="font-medium">Bessemer Fellow (top 1% of applicants nationwide)</p>
                 </div>
                 <div className="pb-2 border-b border-stone-100">
                   <p className="font-medium">NSF Fellowship</p>
